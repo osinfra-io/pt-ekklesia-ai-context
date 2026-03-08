@@ -1,0 +1,28 @@
+# pt-ekklesia-ai-context
+
+Ekklesia team-level Copilot instructions for the [osinfra-io](https://github.com/osinfra-io) platform teams workspace.
+
+## Overview
+
+This repository is the **ekklesia team level** of a three-level GitHub Copilot instruction hierarchy. Instructions here apply to all `pt-ekklesia-*` repositories.
+
+```
+Platform   pt-ai-context                   ← universal conventions for all pt-* repos
+  └── Team   pt-ekklesia-ai-context        ← this repo (applies to all pt-ekklesia-* repos)
+        └── Repo   .github/copilot-instructions.md   ← in every repo (repo-specific only)
+```
+
+## What's in this repo
+
+`.github/instructions/team.instructions.md` — loaded via `COPILOT_CUSTOM_INSTRUCTIONS_DIRS`. Contains conventions shared across all ekklesia repositories (developer portal, documentation, and repository templates).
+
+## Setup
+
+Add this repo alongside `pt-ai-context` in your `COPILOT_CUSTOM_INSTRUCTIONS_DIRS`:
+
+```bash
+# ~/.zshrc or ~/.bashrc
+export COPILOT_CUSTOM_INSTRUCTIONS_DIRS="\
+$HOME/repositories/osinfra-io/platform-teams/pt-ai-context,\
+$HOME/repositories/osinfra-io/platform-teams/ekklesia/pt-ekklesia-ai-context"
+```
