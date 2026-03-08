@@ -1,6 +1,7 @@
 ---
 applyTo: "**/pt-ekklesia-*/**"
 ---
+
 # Ekklesia Team Instructions
 
 ## Repository Overview
