@@ -6,7 +6,7 @@ Ekklesia team-level Copilot instructions for the [osinfra-io](https://github.com
 
 This repository is the **ekklesia team level** of a three-level GitHub Copilot instruction hierarchy. Instructions here apply to all `pt-ekklesia-*` repositories.
 
-```
+```none
 Platform   pt-ai-context                   ← universal conventions for all pt-* repos
   └── Team   pt-ekklesia-ai-context        ← this repo (applies to all pt-ekklesia-* repos)
         └── Repo   .github/copilot-instructions.md   ← in every repo (repo-specific only)
