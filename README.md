@@ -1,4 +1,4 @@
-# pt-ekklesia-ai-context
+# Platform Team: Ekklesia AI Context
 
 Ekklesia team-level Copilot instructions for the [osinfra-io](https://github.com/osinfra-io) platform teams workspace.
 
@@ -18,7 +18,7 @@ Platform   pt-ai-context                   ← universal conventions for all pt-
 
 ## Setup
 
-Add this repo alongside `pt-ai-context` in your `COPILOT_CUSTOM_INSTRUCTIONS_DIRS`:
+Add this repo alongside [pt-ai-context](https://github.com/osinfra-io/pt-ai-context) in your `COPILOT_CUSTOM_INSTRUCTIONS_DIRS`:
 
 ```bash
 # ~/.zshrc or ~/.bashrc
