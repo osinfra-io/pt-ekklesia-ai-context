@@ -1,5 +1,5 @@
 ---
-applyTo: "**/pt-ekklesia-*/**"
+applyTo: "**/pt-ekklesia*/**"
 ---
 
 # Ekklesia Team Instructions
