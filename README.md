@@ -23,6 +23,6 @@ Add this repo alongside [pt-ai-context](https://github.com/osinfra-io/pt-ai-cont
 ```bash
 # ~/.zshrc or ~/.bashrc
 export COPILOT_CUSTOM_INSTRUCTIONS_DIRS="\
-$HOME/repositories/osinfra-io/platform-teams/pt-ai-context,\
-$HOME/repositories/osinfra-io/platform-teams/ekklesia/pt-ekklesia-ai-context"
+$HOME/repositories/osinfra-io/platform-group/pt-ai-context,\
+$HOME/repositories/osinfra-io/platform-group/ekklesia/pt-ekklesia-ai-context"
 ```
